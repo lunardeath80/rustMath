@@ -1,6 +1,7 @@
 use std::cmp::PartialEq;
 use std::ops::{Add, Sub};
 
+
 #[derive(Copy, Clone, Debug)]
 pub struct Vec2 {
     x: f64,

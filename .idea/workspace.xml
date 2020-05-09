@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92fc4189-3454-4abd-a58e-0283ebcead21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Vector.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vector.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vector.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,10 +108,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cargo Command.Test lib::tests" />
+        <item itemvalue="Cargo Command.Test tests::vec2_PartialEQ" />
         <item itemvalue="Cargo Command.Test tests::vec2_ArithmeticOps" />
         <item itemvalue="Cargo Command.Test tests::vec2_Normalise" />
         <item itemvalue="Cargo Command.Test tests::vec2_Add" />
-        <item itemvalue="Cargo Command.Test tests::vec2_PartialEQ" />
       </list>
     </recent_temporary>
   </component>
@@ -135,26 +137,30 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="744" y="278" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1588500469577" />
-    <state width="910" height="275" key="GridCell.Tab.0.bottom" timestamp="1588928696914">
+    <state width="902" height="275" key="GridCell.Tab.0.bottom" timestamp="1588930394162">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="910" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1588928696914" />
-    <state width="910" height="275" key="GridCell.Tab.0.center" timestamp="1588928696913">
+    <state width="902" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1588930394162" />
+    <state width="902" height="275" key="GridCell.Tab.0.center" timestamp="1588930394161">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="910" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1588928696913" />
-    <state width="910" height="275" key="GridCell.Tab.0.left" timestamp="1588928696913">
+    <state width="902" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1588930394161" />
+    <state width="902" height="275" key="GridCell.Tab.0.left" timestamp="1588930394161">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="910" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1588928696913" />
-    <state width="910" height="275" key="GridCell.Tab.0.right" timestamp="1588928696914">
+    <state width="902" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1588930394161" />
+    <state width="902" height="275" key="GridCell.Tab.0.right" timestamp="1588930394162">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="910" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1588928696914" />
+    <state width="902" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1588930394162" />
     <state x="0" y="155" key="SettingsEditor" timestamp="1588929061361">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="0" y="155" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1588929061361" />
+    <state x="272" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588929081438">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="272" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1588929081438" />
     <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1588929018103">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

@@ -1,8 +1,8 @@
-mod Vector;
+pub mod Vector;
 
 #[cfg(test)]
 mod tests {
-    use crate::Vector::Vec2;
+    pub use crate::Vector::Vec2;
 
     #[test]
     fn vec2_PartialEQ() {
