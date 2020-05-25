@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
@@ -7,7 +25,6 @@
     <list default="true" id="92fc4189-3454-4abd-a58e-0283ebcead21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vector.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vector.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,9 +147,36 @@
       <option name="presentableId" value="Default" />
       <updated>1588497516416</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed Vector module to be public">
+      <created>1589011302223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589011302223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed Vector module to be public" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Vector module to be public" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="73" y="71" key="CommitChangelistDialog2" timestamp="1589011302086">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="73" y="71" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1589011302086" />
     <state x="744" y="278" key="FileChooserDialogImpl" timestamp="1588500469577">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -157,6 +201,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="0" y="155" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1588929061361" />
+    <state x="74" y="258" key="Vcs.Push.Dialog.v2" timestamp="1589011360272">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="74" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1589011360272" />
     <state x="272" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588929081438">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

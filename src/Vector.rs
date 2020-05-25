@@ -4,8 +4,8 @@ use std::ops::{Add, Sub};
 
 #[derive(Copy, Clone, Debug)]
 pub struct Vec2 {
-    x: f64,
-    y: f64,
+    pub x: f64,
+    pub y: f64,
 }
 // Implement Vec2 functions
 impl Vec2 {
@@ -40,6 +40,7 @@ impl Vec2 {
             y: f64::round(self.y)
         }
     }
+
 }
 
 impl PartialEq for Vec2 {
