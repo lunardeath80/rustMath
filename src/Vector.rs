@@ -41,6 +41,17 @@ impl Vec2 {
         }
     }
 
+    pub fn rotate(&self, angle: f64) -> Vec2 {
+        let new_x =self.x*angle.cos()-self.y*angle.sin();
+        let new_y =self.x*angle.sin()+angle.cos()*self.y;
+
+        Vec2 {
+            x: new_x,
+            y: new_y
+        }
+
+    }
+
 }
 
 impl PartialEq for Vec2 {

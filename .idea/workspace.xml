@@ -16,15 +16,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92fc4189-3454-4abd-a58e-0283ebcead21" name="Default Changelist" comment="">
+    <list default="true" id="92fc4189-3454-4abd-a58e-0283ebcead21" name="Default Changelist" comment="Vec2 fields are now public for easy access to underlying data.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vector.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vector.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +63,10 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
-  <component name="RunManager" selected="Cargo Command.Test lib::tests">
+  <component name="RunManager" selected="Cargo Command.Test tests::vec2_Rotate">
     <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package rustyMath --lib tests" />
-      <option name="allFeatures" value="false" />
-      <option name="nocapture" value="false" />
-      <option name="emulateTerminal" value="false" />
-      <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test tests::vec2_Add" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rustyMath --lib tests::vec2_Add -- --exact" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
       <option name="emulateTerminal" value="false" />
@@ -122,13 +116,26 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test tests::vec2_Rotate" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package rustyMath --lib tests::vec2_Rotate -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo Command.Test tests::vec2_Rotate" />
         <item itemvalue="Cargo Command.Test lib::tests" />
         <item itemvalue="Cargo Command.Test tests::vec2_PartialEQ" />
         <item itemvalue="Cargo Command.Test tests::vec2_ArithmeticOps" />
         <item itemvalue="Cargo Command.Test tests::vec2_Normalise" />
-        <item itemvalue="Cargo Command.Test tests::vec2_Add" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589011302223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Vec2 fields are now public for easy access to underlying data.">
+      <created>1590396106928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590396106928</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,15 +176,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed Vector module to be public" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Vector module to be public" />
+    <MESSAGE value="Vec2 fields are now public for easy access to underlying data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Vec2 fields are now public for easy access to underlying data." />
   </component>
   <component name="WindowStateProjectService">
     <state x="73" y="71" key="CommitChangelistDialog2" timestamp="1589011302086">
@@ -181,30 +209,30 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="744" y="278" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1588500469577" />
-    <state width="902" height="275" key="GridCell.Tab.0.bottom" timestamp="1588930394162">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1590831172765">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="902" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1588930394162" />
-    <state width="902" height="275" key="GridCell.Tab.0.center" timestamp="1588930394161">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1590831172765" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1590831172764">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="902" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1588930394161" />
-    <state width="902" height="275" key="GridCell.Tab.0.left" timestamp="1588930394161">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1590831172764" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1590831172764">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="902" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1588930394161" />
-    <state width="902" height="275" key="GridCell.Tab.0.right" timestamp="1588930394162">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1590831172764" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1590831172765">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="902" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1588930394162" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1590831172765" />
     <state x="0" y="155" key="SettingsEditor" timestamp="1588929061361">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="0" y="155" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1588929061361" />
-    <state x="74" y="258" key="Vcs.Push.Dialog.v2" timestamp="1589011360272">
+    <state x="74" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590396130178">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="74" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1589011360272" />
+    <state x="74" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1590396130178" />
     <state x="272" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588929081438">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

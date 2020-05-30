@@ -37,6 +37,7 @@ mod tests {
         assert_eq!(mul, Vec2::new(9.0, 12.0));
     }
 
+    #[test]
     fn vec2_Grid() {
         let x = Vec2::new(3.5, 4.6);
 
@@ -44,4 +45,12 @@ mod tests {
 
         assert_eq!(x, Vec2::new(3.0,4.0));
     }
+
+    #[test]
+    fn vec2_Rotate() {
+
+        let mut x = Vec2::new(9.0, 0.0);
+
+    }
+
 }
