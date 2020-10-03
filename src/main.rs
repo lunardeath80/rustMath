@@ -1,5 +1,7 @@
 mod prime;
 
 fn main() {
-    println!("{:?}", prime::prime_sieve(1000));
+    for i in 0..100 {
+        println!("{}: has pf: {:?}", i, prime::prime_factorise(i));
+    }
 }

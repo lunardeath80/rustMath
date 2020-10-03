@@ -33,3 +33,22 @@ pub fn prime_sieve(n: usize) -> Vec<usize> {
 
     return primes;
 }
+
+pub fn prime_factorise(n: usize) -> Vec<usize> {
+    let poss_factors = prime_sieve(n);
+    let mut n_tmp = n;
+
+    let mut prime_factorisation = vec![0; poss_factors.len()];
+
+    while n_tmp > 1 {
+        for (i, x) in poss_factors.iter().enumerate() {
+            if n_tmp % x == 0 {
+                n_tmp /= x;
+
+                prime_factorisation[i] += 1;
+            }
+        }
+    }
+
+    return prime_factorisation;
+}
